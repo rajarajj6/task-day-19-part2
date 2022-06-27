@@ -1,0 +1,50 @@
+* {
+  font-size: 14px;
+}
+
+#body {
+  background-color: rgba(227, 238, 74, 0.63);
+}
+
+.full-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firsttablerow {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 55%;
+}
+
+.gender-div {
+  display: flex;
+}
+
+.choice-div {
+  display: flex;
+}
+
+.sectable {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+
+.thead {
+  border: 1px solid black;
+}
+
+.tbody {
+  border: 1px solid black;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+.secondtablerow {
+  background-color: rgb(27, 216, 43);
+}
